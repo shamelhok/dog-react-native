@@ -8,7 +8,7 @@
     "wsl-start": "NODE_OPTIONS=--openssl-legacy-provider npx expo start --web",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "test": "jest"
+    "test": "mocha --reporter spec"
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",
@@ -39,7 +39,9 @@
     "react-native-web": "~0.18.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "firebase-functions-test": "^2.3.0",
+    "mocha": "^10.0.0"
   },
   "private": true
 }

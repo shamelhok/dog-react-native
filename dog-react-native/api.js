@@ -14,6 +14,7 @@ import {
 } from "firebase/firestore";
 import { dataBase } from "./firebase";
 
+
 // Reference to right dataset in the firestore database
 const userData = doc(dataBase, "USER Data collection", "USER DATA");
 const badgeData = collection(dataBase, "badges");
