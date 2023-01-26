@@ -2,6 +2,8 @@
 
 Our App is a gamified dog breed identifier. You take a picture of a dog and it will match with a breed. It will give you a card with some fun facts about the breed. These will be shown within the gallery. You can see how many of the 50 you have collected and compare with friends on the app. If you take a picture and it is'nt a collectable you have the option to save it anyway.
 
+Hosted at  https://gone-for-a-bork.web.app/
+
 # Setup
 
 Copy the code https://github.com/pippaamy/dog-react-native.git from GitHub
@@ -9,8 +11,6 @@ Copy the code https://github.com/pippaamy/dog-react-native.git from GitHub
 Using the terminal use the command `git clone https://github.com/pippaamy/dog-react-native.git` to clone the project to your file
 
 To open this file on your VSCode cd into the file and use the command `code .`
-
-Make sure you are in the file /dog-react-native/dog-react-native
 
 You will need to `run npm i --legacy-peer-deps` to install your dependencies
 
