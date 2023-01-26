@@ -5,7 +5,7 @@ import {
 } from "react-native";
 import * as tf from "@tensorflow/tfjs";
 import * as FileSystem from 'expo-file-system';
-import {decodeJpeg, fetch} from '@tensorflow/tfjs-react-native'; // comment out this line for wsl
+// import {decodeJpeg, fetch} from '@tensorflow/tfjs-react-native'; // comment out this line for wsl
 import * as mobilenet from "@tensorflow-models/mobilenet";
 import * as jpeg from "jpeg-js";
 import LoadingScreen from "./LoadingScreenPrediction";
@@ -111,8 +111,6 @@ class Prediction extends React.Component {
     if (predictions !== null) {
       return (<>
         <PredictedDog image={image} predictions={predictions}/>
-         {/* un comment line below for wsl */}
-        {/* <img src={image} id='imageId' hidden/>  */}
       </>);
     }
     return (
